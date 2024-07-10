@@ -1,0 +1,46 @@
+1. Pre-trained model path for "best_model.h5" at mode1
+
+for example:
+"C:/Users/vidya Peddinti/Desktop/FLAME/FSP/CSIT431 Adv ML/Emotion-detection-main/Emotion-detection-main/best_model.h5"
+
+
+2. Give input video path at video_path
+
+for example :
+"C:/Users/vidya Peddinti/Desktop/FLAME/FSP/CSIT431 Adv ML/Emotion-detection-main/Emotion-detection-main/V1.mp4"
+
+
+3. run the code
+- go to the directory where the code file is there
+- run python name_of_the_file.py
+
+for example in command propmt:
+- cd C:/Users/vidya Peddinti/Desktop/FLAME/FSP/CSIT431 Adv ML/Emotion-detection-main/Emotion-detection-main
+- python Video_to_Emotion.py
+
+
+4. Wait for sometime
+This will open a pop up window of the video file you have uploaded and gives emotions on the face of the detected humans and also prints the emotion matrix in your console
+
+for example:
+
+1/1 [==============================] - 0s 79ms/step
+[0.0, 0.0, 0.002, 0.983, 0.007, 0.008, 0.0]
+happy
+
+1/1 [==============================] - 0s 91ms/step
+[0.001, 0.0, 0.005, 0.388, 0.538, 0.067, 0.0]
+sad
+
+
+5. Press Esc button
+if you want stop the code, press esc button.
+
+
+
+Note:
+Install the required libraries mentioned in the code using pip, incase the code is giving library errors. 
+
+for example:
+pip install tensorflow
+
